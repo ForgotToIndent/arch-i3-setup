@@ -5,11 +5,11 @@ set -euo pipefail
 
 echo "🔌 Enabling services..."
 
-sudo systemctl enable iwd
-sudo systemctl start iwd
-
 sudo systemctl enable ly.service
 sudo systemctl start ly.service
+
+sudo systemctl enable iwd
+sudo systemctl start iwd
 
 sudo systemctl enable dhcpcd
 sudo systemctl start dhcpcd

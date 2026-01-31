@@ -8,7 +8,7 @@ PKGS=(
     i3-gaps
     i3status
     dmenu
-    pciom
+    picom
     feh
     kitty
     openssh

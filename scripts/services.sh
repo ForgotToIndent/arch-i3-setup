@@ -5,6 +5,7 @@ set -euo pipefail
 
 echo "🔌 Enabling services..."
 
+#sudo systemctl enable --now ly@tty1.service
 sudo systemctl enable ly.service
 sudo systemctl start ly.service
 
